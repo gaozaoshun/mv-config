@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mv-consumer-feign-copy
+    name: mv-consumer-feign
 server:
   port: 10005
 eureka:
