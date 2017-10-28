@@ -11,4 +11,4 @@ feign:
   hystrix:
     enabled: true
 order:
-  number: 99999    
+  number: 88888    
