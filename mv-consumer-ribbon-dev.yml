@@ -19,4 +19,4 @@ eureka:
 management:
   security:
     enabled: false
-msg: the fucking man!!!!!!!!!99999999999999999
+msg: the fucking man!!!!!!!!!
