@@ -1,6 +1,15 @@
 spring:
   application:
     name: mv-consumer-feign
+  cloud:
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 192.168.66.128
+    port: 5672
+    username: admin
+    password: 123456        
 server:
   port: 10005
 eureka:
