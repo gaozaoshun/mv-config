@@ -18,4 +18,5 @@ eureka:
         defaultZone: http://admin:123456@127.0.0.1:10001/eureka/
 management:
   security:
-    enabled: false        
+    enabled: false 
+msg: gaozaoshunniebi!           
