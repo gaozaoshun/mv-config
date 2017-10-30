@@ -11,7 +11,7 @@ spring:
     username: admin
     password: 123456
   zipkin:
-    base-url: http://127.0.0.1:10012    
+    base-url: http://127.0.0.1:10012
 server:
   port: 10005
 eureka:
