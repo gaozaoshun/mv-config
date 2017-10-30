@@ -9,7 +9,9 @@ spring:
     host: 192.168.66.128
     port: 5672
     username: admin
-    password: 123456    
+    password: 123456
+  zipkin:
+    base-url: http://127.0.0.1:10012    
 server:
   port: 10005
 eureka:
@@ -22,8 +24,5 @@ feign:
 management:
   security:
     enabled: false
-spring:
-  zipkin:
-    base-url: http://127.0.0.1:10012
 order:
   number: mv-consumer-feign
