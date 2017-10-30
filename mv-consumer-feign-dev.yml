@@ -22,5 +22,8 @@ feign:
 management:
   security:
     enabled: false
+spring:
+  zipkin:
+    base-url: http://127.0.0.1:10012
 order:
   number: mv-consumer-feign
